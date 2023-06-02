@@ -1,7 +1,6 @@
 <?php
 session_start();
 require_once "../index/function.php";
-z
 /* POSTデータがあるかをチェック
  * 両方入力されていれば判定を行い、なければエラーを表示します*/
 if(! empty($_POST)){ # 未入力があった場合にエラー
